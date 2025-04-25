@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md  customcolor text-light px-5 ">
+          <!--Contenedor responsivo-->
+          <div class="container-fluid customcolor">
+            <!-- imagen del logo -->
+            <div>
+                <strong class="logo t37" >Ricomida</strong>
+            </div>
+            <!-- Botón generado cuando navbar colapsa por tamaño de pantalla -->
+            <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon text-light bs-light ms-auto"></span>
+            </button>
+            <!-- Lista de navbar que es llamada por el boton cuando la pantalla disminuye su tamaño-->
+            <div class="collapse navbar-collapse text-light" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mb-2 mb-md-0 text-light ms-auto px-5 ">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Recetas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Contacto</a>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </nav>
+ 
+    </header> 
+    <section class="container">
+        <div class="row">
+            <img class="col-md-6" src="./assets/img/principal.jpg" alt="Pizza cremosa">
+            <div class="col-md-6">
+                <h1><strong>PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</strong></h1>
+                <hr>
+                <h5>110 MIN / 6 A 8 PORCIONES</h5>
+                <button id="btn">Enviar por correo</button>
+                <button id="btn2">Añadir a favoritos</button>
+            </div>
+
+        </div>foto | nombre receta
+    </section>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div>
+                    <img src="./assets/img/slider-1.png" class="d-block w-100" alt="...">
+                    <img src="./assets/img/slider-1.png" class="d-block w-100" alt="...">
+                    <img src="./assets/img/slider-1.png" class="d-block w-100" alt="...">
+                    <img src="./assets/img/slider-1.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/img/slider-1.png" class="d-block w-100" alt="...">
+                <img src="./assets/img/slider-1.png" class="d-block w-100" alt="...">
+                <img src="./assets/img/slider-1.png" class="d-block w-100" alt="...">
+                <img src="./assets/img/slider-1.png" class="d-block w-100" alt="...">
+          </div>
+
+        </div>
+        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button> -->
+      </div>
+    <section>
+        carrusel
+    </section>
+    <section>
+        ingredientes | receta
+    </section>
+
+    <section>
+        recetas relacionadas
+        3 card de recetas
+    </section>
+
+    <section>
+        SUSCRÍBETE EN NUESTRO NEWSLETTER
+        y obtén las mejores recetas que tenemos en <SPAN class="logo">Ricomida</SPAN>
+    </section>
+    <footer class="logo customcolor text-light t37">
+        <SPAN  >Ricomida</SPAN>
+    </footer>
+
+    <section >
+
+        <button id="btn">click aca</button>
+        <button id="btn2">click aca</button>
+
+        <div class="hover">hover</div>
+
+        <h2>ingredientes</h2><hr>
+        <h2>preparacion</h2>
+
+        
+
+        <button id="btntoggle">mostrar/ocultar</button>
+
+        <div id="contenido" style="background-color: black; color: white;">
+            Este contenido se muestra y oculta con toggle de jQuery.
+        </div>
+    </section>
+    
+
+        
+    <script src="./assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</body>
+</html>

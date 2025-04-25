@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.customcolor{
+    background-color: #373A3C;
+    /* opacity: 80%; */
+} 
+.logo{
+    font-family: Lobster;
+    font-weight: 400;
+}
+.t37{
+    font-size: 37px;
+         
+}
