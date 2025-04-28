@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
 
+html{
+    font-family: Cabin;
+}
 .customcolor{
     background-color: #373A3C;
     /* opacity: 80%; */
@@ -12,3 +16,41 @@
     font-size: 37px;
          
 }
+.suscribete{
+    background-color: #DC3545;
+}
+.info{
+    padding: 2% 10% 2% 10%;
+}
+.carrusel{
+    padding: 2% 8.5% 2% 8.5%;
+}
+.principal{
+    padding: 2% 10% 2% 10%;
+}
+.tope{
+    padding-right: 8%;
+    padding-left: 10%;
+}
+.tope-boton{
+    margin-right: 10%;
+}
+.linea{
+    margin: 2% 10% 0% 10%;
+}
+hr{
+    height: 2px;
+    background-color: #000000;
+    color: #000000
+}
+.boton-principal{ 
+    background-color: #ffffff;
+}
+
+.carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+
+ }
+
