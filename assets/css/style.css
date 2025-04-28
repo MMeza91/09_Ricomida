@@ -54,3 +54,8 @@ hr{
 
  }
 
+ .custom-tooltip {
+    --bs-tooltip-bg: #373A3C;
+    --bs-tooltip-color: var(--bs-white);
+  }
+  

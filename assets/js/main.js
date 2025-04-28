@@ -22,12 +22,25 @@ const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstra
         
         
         
-$('#btn').click(function(){
-    alert("correo enviado correctamente")
+$('#enviarCorreo').click(function(){
+    alert("El correo fue enviado correctamente...")
+        
+})
+
+$('#anadirFavoritos').click(function(){
+    alert("Esta receta fue añadida correctamente a favoritos...")
         
 })
         
-$('#btn2').dblclick(function(){
+$('.rojo').dblclick(function(){
+    $(this).css('color', 'red')
+})
+      
+$('.card-title').click(function(){
+    $('.card').toggle()
+})
+
+/* $('#btn2').dblclick(function(){
     alert("boton clickeado 2 veces!!!!")
         
 })
@@ -35,15 +48,6 @@ $('#btn2').dblclick(function(){
 $('.hover').hover(
     function() {$(this).css('background-color', 'yellow')},
     function() {$(this).css('background-color', '')},
-)
+) */
         
         
-        
-$('h2').dblclick(function(){
-    $(this).css('color', 'red')
-})
-        
-        
-$('#btntoggle').click(function(){
-    $('#contenido').toggle()
-})
