@@ -37,7 +37,7 @@ $('.rojo').dblclick(function(){
 })
       
 $('.card-title').click(function(){
-    $('.card').toggle()
+    $('.card-text').toggle()
 })
 
 /* $('#btn2').dblclick(function(){
